@@ -1,0 +1,5 @@
+<form class="text-center border border-light p-5">
+    <app-email (email)="emitEmail($event)"></app-email>
+    <app-password  (password)="emitPassword($event)"></app-password>
+    <app-button  (submit)="login($event)"></app-button>
+</form>
